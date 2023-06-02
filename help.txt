@@ -1,0 +1,74 @@
+Para comenzar a dibujar en este maravilloso paint puedes utilizar 
+los siguientes comandos.
+
+En la linea superior se escriben los comandos respetando las minusculas y mayusculas.
+En los ejemplos mostrados aqui se encierra con parentesis las variables, asi que al momento 
+    de escribir los comando debe hacerse sin los parentesis. :D
+    
+//Comandos//
+-color-
+    Con el comando "color" nos imprime en la terminal los colores que tenemos disponibles
+
+-color (color)-
+    Agregando alguno de los colores que contiene la lista seguido del comando color
+    nos permite cambiar el color de los trazos y figuras dibujadas.
+
+-fondo (color)-
+    Con este comando nos permite cambiar el color de fondo con el que le indiquemos
+    Sustituyendo toda la pantalla borrando lo que ya habiamos dibujado
+    Recomenando cambiar el fondo desde el principio
+
+-linea (x1 y1 x2 y2)-
+    Este comando solamente dibuja una linea de un punto a otro. (x1 y1) nuestra coordenada inicial
+    y (x2 y2) nuestra coordenada final.
+
+-linea(+-h) (x y longitud)-
+    Este comando cuenta con dos variantes, cada una dependiendo del signo que pongamos
+    entre linea y h, dependiendo del signo que pongamos nos indica hacia donde ira nuestra linea
+    de nuestra coordenada inicial. 
+        linea-h. La linea se dibujara hacia la izquierda de nuestro origen.
+        linea+h. La linea se dibujara hacia la derecha de nuestro origen.
+
+-linea(+-v) (x y longitud)-
+    Con este comando podemos utilizar la misma logica y sintaxis que el anterior.
+    En el cual el signo nos indicara hacia donde se dibujara nuestra linea pero 
+    en este caso hacia arriba o hacia abajo.
+
+-circulo (x y radio)-
+    Este comando dibuja un circulo completo con el centro en las coordenadas proporcionadas
+    y el radio que le demos.
+
+-circunferencia (x y radio)-
+    Este otro comando dibuja al igual un circulo pero en este caso solamente la circunferencia
+    al igual que con el centro en las coordenadas escritas y el radio elegido.
+
+-cuadrado (vacio o lleno) (x y longitud)-
+    Para dibujar un cuadrado podemos elegir si lo queremos completo o solamente el perimetro de este.
+    Posteriormente los mismo atributos de siempre, cooredenadas junto al tamaño (x y longitud)
+        Dato curioso: Solo para los que si leyeron esto. Al ejecutar el comando cuadrado a secas,
+            el programa crashea y se cierra. (No lo haga)
+
+-rectanguloV (x y ancho alto)-
+    Con este comando nos permite un dibujar un rectangulo vacio, solamente el perimetro.
+    De las dimensiones que queramos. Es importante mencionar que la letra final V de vacio
+    debe estar en mayusculas.
+
+-rectanguloL (x y ancho alto)-
+    Con este comando nos permite un dibujar un rectangulo completo.
+    De las dimensiones que queramos. Es importante mencionar que la letra final L de Lleno
+    debe estar en mayusculas.
+
+-equilatero (x y lado)-
+    Con este comando nos dibujara un triangulo que intenta ser un equilatero.
+
+-escaleno (x y base altura)-
+    Con este comando nos dibujara un triangulo que intenta ser un escaleno.
+
+-isosceles (x y base altura)-
+    Con este comando nos dibujara un triangulo que intenta ser un isosceles.
+
+-exit-
+    Comando que permite salir del maravilloso paint permitiendote acceder al mundo exterior
+    y disfrutar de tu nueva vida gracias al contacto que tuviste con este bello proyecto de POO.
+
+Escrito y programado por Joska y chatgpt (Solamente los algoritmos de las figuras y errores resueltos)
